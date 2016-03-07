@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Mirrored from startit.select-themes.com/startit1/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Mar 2016 17:30:38 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<!-- /Added by HTTrack -->
+<head>
+
+
+    <meta charset="UTF-8"/>
+    <link rel="profile" href="http://gmpg.org/xfn/11"/>
+    <link rel="pingback" href="xmlrpc.php"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="shortcut icon" type="image/x-icon" href="wp-content/themes/startit/assets/img/favicon.ico" />
+    <title>Sphinx JavaScript</title>
+    <script type="application/javascript">var qodeCoreAjaxUrl = "http://startit.select-themes.com/startit1/wp-admin/admin-ajax.php"</script>
+    <meta name='robots' content='noindex,follow'/>
+    <link rel="alternate" type="application/rss+xml" title="Startit &raquo; Feed" href="feed/index.html"/>
+    <link rel="alternate" type="application/rss+xml" title="Startit &raquo; Comments Feed"
+          href="comments/feed/index.html"/>
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/72x72\/",
+            "ext": ".png",
+            "source": {"concatemoji": "http:\/\/startit.select-themes.com\/startit1\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}
+        };
+        !function (a, b, c) {
+            function d(a) {
+                var c, d = b.createElement("canvas"), e = d.getContext && d.getContext("2d"), f = String.fromCharCode;
+                return e && e.fillText ? (e.textBaseline = "top", e.font = "600 32px Arial", "flag" === a ? (e.fillText(f(55356, 56806, 55356, 56826), 0, 0), d.toDataURL().length > 3e3) : "diversity" === a ? (e.fillText(f(55356, 57221), 0, 0), c = e.getImageData(16, 16, 1, 1).data.toString(), e.fillText(f(55356, 57221, 55356, 57343), 0, 0), c !== e.getImageData(16, 16, 1, 1).data.toString()) : ("simple" === a ? e.fillText(f(55357, 56835), 0, 0) : e.fillText(f(55356, 57135), 0, 0), 0 !== e.getImageData(16, 16, 1, 1).data[0])) : !1
+            }
+
+            function e(a) {
+                var c = b.createElement("script");
+                c.src = a, c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+            }
+
+            var f, g;
+            c.supports = {
+                simple: d("simple"),
+                flag: d("flag"),
+                unicode8: d("unicode8"),
+                diversity: d("diversity")
+            }, c.DOMReady = !1, c.readyCallback = function () {
+                c.DOMReady = !0
+            }, c.supports.simple && c.supports.flag && c.supports.unicode8 && c.supports.diversity || (g = function () {
+                c.readyCallback()
+            }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () {
+                "complete" === b.readyState && c.readyCallback()
+            })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='layerslider-css'
+          href='wp-content/plugins/LayerSlider/static/css/layerslider4c7e.css?ver=5.6.2' type='text/css' media='all'/>
+    <link rel='stylesheet' id='ls-google-fonts-css'
+          href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&amp;subset=latin%2Clatin-ext'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='contact-form-7-css'
+          href='wp-content/plugins/contact-form-7/includes/css/styles5b31.css?ver=4.3.1' type='text/css' media='all'/>
+    <link rel='stylesheet' id='qode_startit_default_style-css' href='wp-content/themes/startit/stylec1f9.css?ver=4.4.2'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='qode_startit_modules_plugins-css'
+          href='wp-content/themes/startit/assets/css/plugins.minc1f9.css?ver=4.4.2' type='text/css' media='all'/>
+    <link rel='stylesheet' id='qode_startit_modules-css'
+          href='wp-content/themes/startit/assets/css/modules.minc1f9.css?ver=4.4.2' type='text/css' media='all'/>
+    <link rel='stylesheet' id='qodef_font_awesome-css'
+          href='wp-content/themes/startit/assets/css/font-awesome/css/font-awesome.minc1f9.css?ver=4.4.2'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='qodef_font_elegant-css'
+          href='wp-content/themes/startit/assets/css/elegant-icons/style.minc1f9.css?ver=4.4.2' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='qodef_ion_icons-css'
+          href='wp-content/themes/startit/assets/css/ion-icons/css/ionicons.minc1f9.css?ver=4.4.2' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='qodef_linea_icons-css'
+          href='wp-content/themes/startit/assets/css/linea-icons/stylec1f9.css?ver=4.4.2' type='text/css' media='all'/>
+    <link rel='stylesheet' id='qodef_simple_line_icons-css'
+          href='wp-content/themes/startit/assets/css/simple-line-icons/simple-line-iconsc1f9.css?ver=4.4.2'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='qodef_dripicons-css'
+          href='wp-content/themes/startit/assets/css/dripicons/dripiconsc1f9.css?ver=4.4.2' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='qode_startit_blog-css'
+          href='wp-content/themes/startit/assets/css/blog.minc1f9.css?ver=4.4.2' type='text/css' media='all'/>
+    <link rel='stylesheet' id='mediaelement-css'
+          href='wp-includes/js/mediaelement/mediaelementplayer.mineb0c.css?ver=2.18.1' type='text/css' media='all'/>
+    <link rel='stylesheet' id='wp-mediaelement-css' href='wp-includes/js/mediaelement/wp-mediaelementc1f9.css?ver=4.4.2'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='qode_startit_style_dynamic-css'
+          href='wp-content/themes/startit/assets/css/style_dynamic5b00.css?ver=1454492134' type='text/css' media='all'/>
+    <link rel='stylesheet' id='qode_startit_modules_responsive-css'
+          href='wp-content/themes/startit/assets/css/modules-responsive.minc1f9.css?ver=4.4.2' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='qode_startit_blog_responsive-css'
+          href='wp-content/themes/startit/assets/css/blog-responsive.minc1f9.css?ver=4.4.2' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='qode_startit_style_dynamic_responsive-css'
+          href='wp-content/themes/startit/assets/css/style_dynamic_responsive5b00.css?ver=1454492134' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='qode_startit_toolbar-css' href='toolbar/toolbarc1f9.css?ver=4.4.2' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='js_composer_front-css'
+          href='wp-content/plugins/js_composer/assets/css/js_composer.min20fd.css?ver=4.9.2' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='qode_startit_google_fonts-css'
+          href='https://fonts.googleapis.com/css?family=Raleway%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;ver=1.0.0'
+          type='text/css' media='all'/>
+    <script type='text/javascript' src='wp-content/plugins/LayerSlider/static/js/greensockcd11.js?ver=1.11.8'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jqueryc1d8.js?ver=1.11.3'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
+    <script type='text/javascript'
+            src='wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery4c7e.js?ver=5.6.2'></script>
+    <script type='text/javascript'
+            src='wp-content/plugins/LayerSlider/static/js/layerslider.transitions4c7e.js?ver=5.6.2'></script>
+    <link rel='https://api.w.org/' href='wp-json/index.html'/>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd"/>
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml"/>
+    <meta name="generator" content="WordPress 4.4.2"/>
+    <link rel="canonical" href="index.html"/>
+    <link rel='shortlink' href='index.html'/>
+    <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css"
+          href="http://startit.select-themes.com/startit1/wp-content/themes/startit/assets/css/ie9_stylesheet.min.css"
+          media="screen"><![endif]-->
+    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" type="text/css"
+          href="http://startit.select-themes.com/startit1/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css"
+          media="screen"><![endif]--><!--[if IE  8]>
+    <link rel="stylesheet" type="text/css"
+          href="http://startit.select-themes.com/startit1/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css"
+          media="screen"><![endif]-->
+    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1452256922985 {
+        padding-top: 70px !important;
+        padding-bottom: 71px !important;
+        background-color: #ffffff !important;
+    }
+
+    .vc_custom_1452256929608 {
+        padding-bottom: 42px !important;
+        background-color: #ffffff !important;
+    }
+
+    .vc_custom_1446821734921 {
+        padding-top: 73px !important;
+        padding-bottom: 89px !important;
+    }
+
+    .vc_custom_1446820997091 {
+        padding-top: 93px !important;
+        padding-bottom: 47px !important;
+    }
+
+    .vc_custom_1446821746836 {
+        padding-top: 82px !important;
+        padding-bottom: 90px !important;
+        background-color: #f6f6f6 !important;
+    }
+
+    .vc_custom_1446821124073 {
+        padding-top: 76px !important;
+        padding-bottom: 72px !important;
+    }
+
+    .vc_custom_1446821129913 {
+        padding-bottom: 73px !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    .vc_custom_1446821765845 {
+        padding-top: 75px !important;
+        padding-bottom: 71px !important;
+        background-color: #f5f5f5 !important;
+    }
+
+    .vc_custom_1446821239682 {
+        padding-bottom: 45px !important;
+        background-color: #f5f5f5 !important;
+    }
+
+    .vc_custom_1446816513166 {
+        background-color: #f5f5f5 !important;
+    }
+
+    .vc_custom_1446816003933 {
+        padding-top: 93px !important;
+        padding-bottom: 107px !important;
+    }
+
+    .vc_custom_1446821786553 {
+        padding-top: 56px !important;
+        padding-bottom: 43px !important;
+    }
+
+    .vc_custom_1446824995972 {
+        background-image: url(wp-content/uploads/2015/11/onepage-call-to-action4b8a.png?id=1742) !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    .vc_custom_1445413182400 {
+        margin-bottom: -51px !important;
+    }
+
+    .vc_custom_1445414812892 {
+        padding-right: 12% !important;
+        padding-left: 12% !important;
+    }</style>
+    <noscript>
+        <style type="text/css"> .wpb_animate_when_almost_visible {
+            opacity: 1;
+        }</style>
+    </noscript>
+</head>
+
+<body class="home page page-id-5 page-template page-template-full-width page-template-full-width-php qode-core-1.0 startit-ver-1.2 qodef-smooth-scroll qodef-smooth-page-transitions qodef-blog-installed qodef-header-standard qodef-sticky-header-on-scroll-down-up qodef-default-mobile-header qodef-sticky-up-mobile-header qodef-dropdown-default qodef-light-header qodef-search-covers-header qodef-side-menu-slide-with-content qodef-width-470 wpb-js-composer js-comp-ver-4.9.2 vc_responsive">
+<div class="qodef-wrapper">
+    <div class="qodef-wrapper-inner">
+
+        <header class="qodef-page-header">
+            <div class="qodef-menu-area" style="background-color:rgba(255, 255, 255, 0)">
+                <form role="search" action="http://startit.select-themes.com/startit1/" class="qodef-search-cover"
+                      method="get">
+                    <div class="qodef-form-holder-outer">
+                        <div class="qodef-form-holder">
+                            <div class="qodef-form-holder-inner">
+                                <input type="text" placeholder="Search" name="s" class="qode_search_field"
+                                       autocomplete="off"/>
+
+                                <div class="qodef-search-close">
+                                    <a href="#">
+                                        <i class="qodef-icon-ion-icon ion-close "></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="qodef-vertical-align-containers">
+                    <div class="qodef-position-left">
+                        <div class="qodef-position-left-inner">
+
+                            <div class="qodef-logo-wrapper">
+                                <a href="index.html" style="height: 90px;">
+                                    <img class="qodef-normal-logo" src="wp-content/themes/startit/assets/img/logo.png"
+                                         alt="logo"/>
+                                    <img class="qodef-dark-logo" src="wp-content/themes/startit/assets/img/logo.png"
+                                         alt="dark logo"/> <img class="qodef-light-logo"
+                                                                src="wp-content/uploads/2015/11/logo-light.png"
+                                                                alt="light logo"/> </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="qodef-position-right">
+                        <div class="qodef-position-right-inner">
+
+                            <nav class="qodef-main-menu qodef-drop-down qodef-default-nav">
+                                <ul id="menu-one-page-menu" class="clearfix">
+                                    <li id="nav-menu-item-1738"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                        <a href="index.html#home" class=" current "><span class="item_outer"><span
+                                                class="item_inner"><span class="menu_icon_wrapper"><i
+                                                class="menu_icon null fa"></i></span><span class="item_text">Home</span></span><span
+                                                class="plus"></span></span></a></li>
+                                    <li id="nav-menu-item-1727"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                        <a href="index.html#about" class=" current "><span class="item_outer"><span
+                                                class="item_inner"><span class="menu_icon_wrapper"><i
+                                                class="menu_icon null fa"></i></span><span
+                                                class="item_text">About</span></span><span
+                                                class="plus"></span></span></a></li>
+                                    <li id="nav-menu-item-1736"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                        <a href="index.html#tech" class=" current "><span class="item_outer"><span
+                                                class="item_inner"><span class="menu_icon_wrapper"><i
+                                                class="menu_icon null fa"></i></span><span
+                                                class="item_text">Technologies Solutions</span></span><span
+                                                class="plus"></span></span></a></li>
+                                    <li id="nav-menu-item-1729"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                        <a href="index.html#foudation" class=" current "><span class="item_outer"><span
+                                                class="item_inner"><span class="menu_icon_wrapper"><i
+                                                class="menu_icon null fa"></i></span><span
+                                                class="item_text">Node.JS Foundation</span></span><span class="plus"></span></span></a>
+                                    </li>
+                                    <li id="nav-menu-item-1728"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                        <a href="index.html#clients" class=" current "><span class="item_outer"><span
+                                                class="item_inner"><span class="menu_icon_wrapper"><i
+                                                class="menu_icon null fa"></i></span><span
+                                                class="item_text">Partner</span></span><span class="plus"></span></span></a>
+                                    </li>
+                                    <li id="nav-menu-item-1739"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                        <a href="index.html#contact" class=" current "><span class="item_outer"><span
+                                                class="item_inner"><span class="menu_icon_wrapper"><i
+                                                class="menu_icon null fa"></i></span><span
+                                                class="item_text">Contact</span></span><span class="plus"></span></span></a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+
+                            <a data-icon-close-same-position="yes" class="qodef-search-opener"
+                               href="javascript:void(0)">
+                                <i class="qodef-icon-ion-icon ion-ios-search-strong "></i> </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="qodef-sticky-header">
+                <form role="search" action="http://startit.select-themes.com/startit1/" class="qodef-search-cover"
+                      method="get">
+                    <div class="qodef-form-holder-outer">
+                        <div class="qodef-form-holder">
+                            <div class="qodef-form-holder-inner">
+                                <input type="text" placeholder="Search" name="s" class="qode_search_field"
+                                       autocomplete="off"/>
+
+                                <div class="qodef-search-close">
+                                    <a href="#">
+                                        <i class="qodef-icon-ion-icon ion-close "></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="qodef-sticky-holder">
+                    <div class=" qodef-vertical-align-containers">
+                        <div class="qodef-position-left">
+                            <div class="qodef-position-left-inner">
+
+                                <div class="qodef-logo-wrapper">
+                                    <a href="index.html" style="height: 90px;">
+                                        <img class="qodef-normal-logo"
+                                             src="wp-content/themes/startit/assets/img/logo.png" alt="logo"/>
+                                        <img class="qodef-dark-logo" src="wp-content/themes/startit/assets/img/logo.png"
+                                             alt="dark logo"/> <img class="qodef-light-logo"
+                                                                    src="wp-content/uploads/2015/11/logo-light.png"
+                                                                    alt="light logo"/> </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="qodef-position-right">
+                            <div class="qodef-position-right-inner">
+
+                                <nav class="qodef-main-menu qodef-drop-down qodef-sticky-nav">
+                                    <ul id="menu-one-page-menu-1" class="clearfix">
+                                        <li id="sticky-nav-menu-item-1738"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                            <a href="index.html#home" class=" current "><span class="item_outer"><span
+                                                    class="item_inner"><span class="menu_icon_wrapper"><i
+                                                    class="menu_icon null fa"></i></span><span
+                                                    class="item_text">Home</span></span><span
+                                                    class="plus"></span></span></a></li>
+                                        <li id="sticky-nav-menu-item-1727"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                            <a href="index.html#about" class=" current "><span class="item_outer"><span
+                                                    class="item_inner"><span class="menu_icon_wrapper"><i
+                                                    class="menu_icon null fa"></i></span><span
+                                                    class="item_text">About</span></span><span
+                                                    class="plus"></span></span></a></li>
+                                        <li id="sticky-nav-menu-item-1736"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                            <a href="index.html#tech" class=" current "><span
+                                                    class="item_outer"><span class="item_inner"><span
+                                                    class="menu_icon_wrapper"><i
+                                                    class="menu_icon null fa"></i></span><span class="item_text">Technologies Solutions</span></span><span
+                                                    class="plus"></span></span></a></li>
+                                        <li id="sticky-nav-menu-item-1729"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                            <a href="index.html#foudation" class=" current "><span
+                                                    class="item_outer"><span class="item_inner"><span
+                                                    class="menu_icon_wrapper"><i
+                                                    class="menu_icon null fa"></i></span><span
+                                                    class="item_text">Node.JS Foundation</span></span><span
+                                                    class="plus"></span></span></a></li>
+                                        <li id="sticky-nav-menu-item-1728"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                            <a href="index.html#clients" class=" current "><span
+                                                    class="item_outer"><span class="item_inner"><span
+                                                    class="menu_icon_wrapper"><i
+                                                    class="menu_icon null fa"></i></span><span
+                                                    class="item_text">Partner</span></span><span
+                                                    class="plus"></span></span></a></li>
+                                        <li id="sticky-nav-menu-item-1739"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item anchor-item  narrow">
+                                            <a href="index.html#contact" class=" current "><span
+                                                    class="item_outer"><span class="item_inner"><span
+                                                    class="menu_icon_wrapper"><i
+                                                    class="menu_icon null fa"></i></span><span
+                                                    class="item_text">Contact</span></span><span
+                                                    class="plus"></span></span></a></li>
+                                    </ul>
+                                </nav>
+
+
+                                <a data-icon-close-same-position="yes" class="qodef-search-opener"
+                                   href="javascript:void(0)">
+                                    <i class="qodef-icon-ion-icon ion-ios-search-strong "></i> </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+
+        <header class="qodef-mobile-header">
+            <div class="qodef-mobile-header-inner">
+                <div class="qodef-mobile-header-holder">
+                    <div class="qodef-grid">
+                        <div class="qodef-vertical-align-containers">
+                            <div class="qodef-mobile-menu-opener">
+                                <a href="javascript:void(0)">
+                    <span class="qodef-mobile-opener-icon-holder">
+                        <i class="qodef-icon-font-awesome fa fa-bars "></i>                    </span>
+                                </a>
+                            </div>
+                            <div class="qodef-position-center">
+                                <div class="qodef-position-center-inner">
+
+                                    <div class="qodef-mobile-logo-wrapper">
+                                        <a href="index.html" style="height: 90px">
+                                            <img src="wp-content/themes/startit/assets/img/logo.png" alt="mobile-logo"/>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="qodef-position-right">
+                                <div class="qodef-position-right-inner">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- close .qodef-vertical-align-containers -->
+                    </div>
+                </div>
+
+                <nav class="qodef-mobile-nav">
+                    <div class="qodef-grid">
+                        <ul id="menu-one-page-menu-2" class="">
+                            <li id="mobile-menu-item-1738"
+                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item ">
+                                <a href="index.html#home" class=" current "><span>Home</span></a></li>
+                            <li id="mobile-menu-item-1727"
+                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item ">
+                                <a href="index.html#about" class=" current "><span>About</span></a></li>
+                            <li id="mobile-menu-item-1736"
+                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item ">
+                                <a href="index.html#tech" class=" current "><span>Technologies Solutions</span></a></li>
+                            <li id="mobile-menu-item-1729"
+                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item ">
+                                <a href="index.html#foudation" class=" current "><span>Node.JS Foundation</span></a></li>
+                            <li id="mobile-menu-item-1728"
+                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item ">
+                                <a href="index.html#clients" class=" current "><span>Clients</span></a></li>
+                            <li id="mobile-menu-item-1739"
+                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item ">
+                                <a href="index.html#contact" class=" current "><span>Contact</span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+        <!-- close .qodef-mobile-header -->
+
+
+        <a id='qodef-back-to-top' href='#'>
+                <span class="qodef-icon-stack">
+                     <i class="qodef-icon-font-awesome fa fa-chevron-up "></i>                </span>
+        </a>
+
+        <div class="qodef-content" style="margin-top: -100px">
+            <div class="qodef-content-inner">
+                <div class="qodef-slider">
+                    <div class="qodef-slider-inner">
+                        <div id="qodef-one-page-slider" data-qodef-anchor="home"
+                             data-qodef_responsive_graphic_coefficients="1,1,0.8,0.7,0.6,0.5,0.4"
+                             data-qodef_responsive_title_coefficients="1,0.9,0.8,0.7,0.6,0.4,0.3"
+                             data-qodef_responsive_subtitle_coefficients="1,1,0.8,0.7,0.6,0.5,0.4"
+                             data-qodef_responsive_text_coefficients="1,1,0.8,0.7,0.6,0.5,0.4"
+                             data-qodef_responsive_button_coefficients="1,1,0.8,0.7,0.6,0.5,0.4"
+                             class="carousel slide  qodef-full-screen   qodef-auto-start    qodef-slider-thumbs "
+                             data-slide_animation_timeout="6000" data-parallax="yes">
+                            <div class="qodef-slider-preloader">
+                                <div class="qodef-st-loader">
+                                    <div class="qodef-st-loader1">
+                                        <div class="pulse"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-inner " style="height: 100%" data-start="transform: translateY(0px);"
+                                 data-1440="transform: translateY(-500px);">
+                                <div class="item light  qodef-content-vertical-middle  " style=" padding-top: 0px;">
+                                    <div class="qodef-video">
+                                        <div class="qodef-mobile-video-image"
+                                             style="background-image: url(wp-content/uploads/2015/11/man-walking.jpg)"></div>
+                                        <div class="qodef-video-overlay active"
+                                             style="background-image:url(wp-content/uploads/2015/11/pattern-2.png);">
+                                            <img src="wp-content/uploads/2015/11/pattern-2.png" alt=""/></div>
+                                        <div class="qodef-video-wrap">
+                                            <video class="video" width="100%" height="100%"
+                                                   poster="wp-content/uploads/2015/11/man-walking.jpg"
+                                                   controls="controls" preload="auto" loop autoplay muted>
+                                                <source type="video/webm"
+                                                        src="wp-content/uploads/2015/11/man-walking.webm">
+                                                <source type="video/mp4"
+                                                        src="wp-content/uploads/2015/11/man-walking.mp4">
+                                                <source type="video/ogg"
+                                                        src="wp-content/uploads/2015/11/man-walking.ogv">
+                                                <object width="320" height="240" type="application/x-shockwave-flash"
+                                                        data="wp-content/themes/startit/assets/js/flashmediaelement.swf">
+                                                    <param name="movie"
+                                                           value="http://startit.select-themes.com/wp-content/themes/startit/assets/js/flashmediaelement.swf"/>
+                                                    <param name="flashvars"
+                                                           value="controls=true&amp;file=http://startit.select-themes.com/wp-content/uploads/2015/11/man-walking.mp4"/>
+                                                    <img src="wp-content/uploads/2015/11/man-walking.jpg" width="100%"
+                                                         height="100%" title="No video playback capabilities"
+                                                         alt="Video thumb"/>
+                                                </object>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <div class="qodef-slider-content-outer">
+                                        <div class="qodef-slider-content left" data-0=" opacity: 1;   "
+                                             data-300=" opacity: 0;  ">
+                                            <div class="qodef-slider-content-inner one_by_one from_bottom"
+                                                 style="width:77%; position:relative; ">
+                                                <div class="qodef-text one_by_one from_bottom " style="">
+                                                    <div class="qodef-el"><h2 class="qodef-slide-title"><span>Sphinx</span>
+                                                    </h2></div>
+                                                    <div class="qodef-el"><h3 class="qodef-slide-text"><span>The leading on Javascript development company</span>
+                                                    </h3></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qodef-full-width" data-qodef-anchor="about">
+                    <div class="qodef-full-width-inner">
+                        <div class="vc_row wpb_row vc_row-fluid qodef-section qodef-content-aligment-left" style="">
+                            <div class="clearfix qodef-full-section-inner">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div id="qodef-particles" class="auto" style="background-color: #f8f8f8;"
+                                                 data-particles-density="high" data-particles-color="#c1c1c1"
+                                                 data-particles-opacity="1" data-particles-size="3" data-speed="2"
+                                                 data-show-lines="yes" data-line-length="100">
+                                                <div id="qodef-p-particles-container"></div>
+                                                <div class="qodef-p-content" data-margin-top="5%"
+                                                     data-margin-bottom="5%">
+                                                    <div class="qodef-elements-holder qodef-two-columns qodef-responsive-mode-1024 qodef-one-column-alignment-left about">
+                                                        <div class="qodef-elements-holder-item qodef-vertical-alignment-top qodef-horizontal-alignment-left">
+                                                            <div class="qodef-elements-holder-item-inner">
+                                                                <div class="qodef-elements-holder-item-content qodef-elements-holder-custom-797624"
+                                                                     style="padding: 0 15px 0 0">
+                                                                    <style type="text/css"
+                                                                           data-type="qodef-elements-custom-padding">
+                                                                        @media only screen and (min-width: 1280px) and (max-width: 1600px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-797624 {
+                                                                                padding: !important;
+                                                                            }
+                                                                        }
+
+                                                                        @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-797624 {
+                                                                                padding: !important;
+                                                                            }
+                                                                        }
+
+                                                                        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-797624 {
+                                                                                padding: 0 0 0 0 !important;
+                                                                            }
+                                                                        }
+
+                                                                        @media only screen and (min-width: 600px) and (max-width: 768px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-797624 {
+                                                                                padding: !important;
+                                                                            }
+                                                                        }
+
+                                                                        @media only screen and (min-width: 480px) and (max-width: 600px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-797624 {
+                                                                                padding: !important;
+                                                                            }
+                                                                        }
+
+                                                                        @media only screen and (max-width: 480px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-797624 {
+                                                                                padding: !important;
+                                                                            }
+                                                                        }
+                                                                    </style>
+
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <h2>About Us</h2>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vc_empty_space" style="height: 29px">
+                                                                        <span class="vc_empty_space_inner"></span></div>
+
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <h4><b class="green-text">Sphinx</b> was established in 2014 by experience Vietnamese developers from <b class="green-text">Silicon Valley</b> with the mission to bridge the gap between in-house developers and remote developers. It’s main focus is on <b class="green-text">Node.js and the MEAN stack</b>, and the group has co-founded the Vietnamese Node.js and Angular.js communities. The consulting team helps take large-scale applications from the concept phase to production for some of the <b class="green-text">largest global enterprises</b> and <b class="green-text">government departments</b>.</h4><br/><br/>
+                                                                            <h4>We have many developers with <b class="green-text">5-10 years of experience</b> in software development and accustom to <b class="green-text">Agile</b> software development toolkits such as <b class="green-text">Scrum</b>, <b class="green-text">XP</b>, <b class="green-text">TDD</b>, <b class="green-text">DDD</b>. We are confident that we can adapt well with increasing demand for quality, time as we as process.</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="qodef-elements-holder-item qodef-vertical-alignment-middle qodef-horizontal-alignment-right">
+                                                            <div class="qodef-elements-holder-item-inner">
+                                                                <div class="qodef-elements-holder-item-content qodef-elements-holder-custom-528736"
+                                                                     style="padding: 0 0 0 15px">
+                                                                    <style type="text/css"
+                                                                           data-type="qodef-elements-custom-padding">
+                                                                        @media only screen and (min-width: 1280px) and (max-width: 1600px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-528736 {
+                                                                                padding: !important;
+                                                                            }
+                                                                        }
+
+                                                                        @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-528736 {
+                                                                                padding: !important;
+                                                                            }
+                                                                        }
+
+                                                                        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-528736 {
+                                                                                padding: 0 0 0 0 !important;
+                                                                            }
+                                                                        }
+
+                                                                        @media only screen and (min-width: 600px) and (max-width: 768px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-528736 {
+                                                                                padding: !important;
+                                                                            }
+                                                                        }
+
+                                                                        @media only screen and (min-width: 480px) and (max-width: 600px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-528736 {
+                                                                                padding: !important;
+                                                                            }
+                                                                        }
+
+                                                                        @media only screen and (max-width: 480px) {
+                                                                            .qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-528736 {
+                                                                                padding: !important;
+                                                                            }
+                                                                        }
+                                                                    </style>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-qodef-anchor="tech" data-qodef-parallax-speed="0.5"
+                             class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1446821734921 qodef-content-aligment-left qodef-parallax-section-holder qodef-parallax-section-holder-touch-disabled"
+                             style="background-image:url(wp-content/uploads/2015/11/App2-Title-image-1.jpg);">
+                            <div class="clearfix qodef-full-section-inner">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <h2 style="text-align: center;">Technologies Solutions</h2>
+
+                                                </div>
+                                            </div>
+                                            <div class="vc_empty_space" style="height: 16px"><span
+                                                    class="vc_empty_space_inner"></span></div>
+
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <!--<h4 style="text-align: center;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>-->
+
+                                                </div>
+                                            </div>
+                                            <div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1445420473166 qodef-content-aligment-left qodef-grid-section"
+                                                 style="">
+                                                <div class="clearfix qodef-section-inner">
+                                                    <div class="qodef-section-inner-margin clearfix">
+                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                            <div class="vc_column-inner ">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid qodef-section qodef-content-aligment-left"
+                                                                         style="">
+                                                                        <div class="qodef-full-section-inner">
+                                                                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-md-12">
+                                                                                <div class="vc_column-inner ">
+                                                                                    <div class="wpb_wrapper">
+                                                                                        <div class="wpb_single_image wpb_content_element vc_align_left">
+
+                                                                                            <figure class="wpb_wrapper vc_figure">
+                                                                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                                                                    <img width="288" height="272"
+                                                                                                         src="wp-content/uploads/2015/11/graphic-2-home-main.png"
+                                                                                                         class="vc_single_image-img attachment-full"
+                                                                                                         alt="a"/></div>
+                                                                                            </figure>
+                                                                                        </div>
+                                                                                        <div class="vc_empty_space" style="height: 30px">
+                                                                                            <span class="vc_empty_space_inner"></span></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-8 vc_col-md-12">
+                                                                                <div class="vc_column-inner ">
+                                                                                    <div class="wpb_wrapper">
+                                                                                        <div class="vc_empty_space" style="height: 34px">
+                                                                                            <span class="vc_empty_space_inner"></span></div>
+                                                                                        <div class="qodef-tabs qodef-horizontal qodef-tab-text clearfix">
+                                                                                            <ul class="qodef-tabs-nav">
+                                                                                                <li>
+                                                                                                    <a href="#tab-tab-example-1">
+                                                                                                        Server Side </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <a href="#tab-tab-example-2">
+                                                                                                        Client Side </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <a href="#tab-tab-example-3">
+                                                                                                        Hybrid Apps </a>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <div class="qodef-tab-container"
+                                                                                                 id="tab-tab-example-1"
+                                                                                                 data-icon-pack="font_awesome"
+                                                                                                 data-icon-html="&lt;i class=&quot;qodef-icon-font-awesome fa  &quot; &gt;&lt;/i&gt;">
+
+                                                                                                <div class="wpb_text_column wpb_content_element ">
+                                                                                                    <div class="wpb_wrapper">
+                                                                                                        <p>Is a perfect combination between the speed of <b class="green-text">Node.JS</b> and the agility of cloud platform such as: <b class="green-text">Heroku</b>, <b class="green-text">AWS</b>, <b class="green-text">Digital Ocean</b> ... Which makes your application stable, speedy and low-cost.</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="wpb_wrapper logo">
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/nodejs.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/heroku.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/aws.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/digitalocean.png"/></span>
+                                                                                                </div>
+
+                                                                                            </div>
+
+                                                                                            <div class="qodef-tab-container"
+                                                                                                 id="tab-tab-example-2"
+                                                                                                 data-icon-pack="font_awesome"
+                                                                                                 data-icon-html="&lt;i class=&quot;qodef-icon-font-awesome fa  &quot; &gt;&lt;/i&gt;">
+
+                                                                                                <div class="wpb_text_column wpb_content_element ">
+                                                                                                    <div class="wpb_wrapper">
+                                                                                                        <p>The user of modern frameworks such as: <b class="green-text">AngularJS</b>, <b class="green-text">Meteor</b>, <b class="green-text">ReactJS</b>, <b class="green-text">D3</b>, <b class="green-text">BackboneJS</b>, <b class="green-text">KnockoutJS</b>, <b class="green-text">Coffee Script</b>, <b class="green-text">Type Script ...</b>. It makes your products a digital master piece of interaction, color and movement.</p>
+                                                                                                    </div>
+                                                                                                </div>
+
+                                                                                                <div class="wpb_wrapper logo">
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/angular.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/meteor.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/react.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/d3.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/backbone.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/knockout.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/coffee.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/typescript.png"/></span>
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div class="qodef-tab-container"
+                                                                                                 id="tab-tab-example-3"
+                                                                                                 data-icon-pack="font_awesome"
+                                                                                                 data-icon-html="&lt;i class=&quot;qodef-icon-font-awesome fa  &quot; &gt;&lt;/i&gt;">
+
+                                                                                                <div class="wpb_text_column wpb_content_element ">
+                                                                                                    <div class="wpb_wrapper">
+                                                                                                        <p>Native developers love working with native code but that doesn't always go well with the business case or result in effective use of effort and time. We often see scenarios where developers end up building same mobile app for android, iOS, windows and other mobile platforms using native APIs and libraries of individual platform.</p>
+
+                                                                                                        <p>HTML5 mobile UI frameworks let you create cross platform hybrid mobile apps with native look and feel by using the technology that you already know i.e. HTM5, CSS and JavaScript.</p>
+                                                                                                    </div>
+                                                                                                </div>
+
+                                                                                                <div class="wpb_wrapper logo">
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/ionic.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/angular-ui.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/appcelerator.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/intelxdk.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/sencha.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/kendo.png"/></span>
+                                                                                                    <span class="logo-icon"><img src="wp-content/uploads/2015/11/phonegap.png"/></span>
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-qodef-anchor="foudation"
+                             class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1446821734921 qodef-content-aligment-left qodef-parallax-section-holder qodef-parallax-section-holder-touch-disabled"
+                             style="background-image:url(wp-content/uploads/2015/11/App2-Background-4.jpg);">
+                            <div class="clearfix qodef-full-section-inner">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <h2 style="text-align: center;">Node.JS Foundation</h2>
+
+                                                </div>
+                                            </div>
+                                            <div class="vc_empty_space" style="height: 16px"><span
+                                                    class="vc_empty_space_inner"></span></div>
+
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <h4 style="text-align: center;">We are proud to become the <b>Silver Member</b> of <a href="https://nodejs.org/en/foundation/members/" target="_blank" class="green-text"><b>Node JS Foundation</b></a></h4>
+
+                                                </div>
+                                            </div>
+                                            <div class="vc_empty_space" style="height: 16px"><span
+                                                    class="vc_empty_space_inner"></span></div>
+
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <h4 style="text-align: center;">Other Silver member:</h4>
+
+                                                </div>
+                                            </div>
+                                            <div class="silver">
+                                                <!--<a href="#" class="logo"><img src="wp-content/uploads/2015/11/apigee_logo_md.png" /></a>-->
+                                                <!--<a href="#" class="logo"><img src="wp-content/uploads/2015/11/codefreshLogo2.png" /></a>-->
+                                                <a href="#" class="logo"><img src="wp-content/uploads/2015/11/digitaloceanLogo.png" /></a>
+                                                <a href="#" class="logo"><img src="wp-content/uploads/2015/11/fidelityLogo.png" /></a>
+                                                <a href="#" class="logo"><img src="wp-content/uploads/2015/11/grouponLogo.png" /></a>
+                                                <a href="#" class="logo"><img src="wp-content/uploads/2015/11/npmLogo.png" /></a>
+                                                <!--<a href="#" class="logo"><img src="wp-content/uploads/2015/11/risingstack_logo.png" /></a>-->
+                                                <!--<a href="#" class="logo"><img src="wp-content/uploads/2015/11/sapLogo.png" /></a>-->
+                                                <!--<a href="#" class="logo"><img src="wp-content/uploads/2015/11/saucelabsLogo2.png" /></a>-->
+                                                <a href="#" class="logo"><img src="wp-content/uploads/2015/11/strongloopLogo.png" /></a>
+                                                <a href="#" class="logo"><img src="wp-content/uploads/2015/11/yahoo.png" /></a>
+                                                <a href="#" class="logo"><img src="wp-content/uploads/2015/11/yldLogo2.png" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qodef-full-width" data-qodef-anchor="clients">
+                            <div class="qodef-full-width-inner">
+                                <div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1446023888336 qodef-content-aligment-center qodef-grid-section"
+                                     style="">
+                                    <div class="clearfix qodef-section-inner">
+                                        <div class="qodef-section-inner-margin clearfix">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-2 vc_col-lg-8">
+                                                <div class="vc_column-inner ">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="wpb_text_column wpb_content_element client">
+                                                            <div class="wpb_wrapper">
+                                                                <h2>Our Partner</h2>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1446024295969 qodef-content-aligment-left"
+                                     style="">
+                                    <div class="clearfix qodef-full-section-inner">
+                                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                                            <div class="vc_column-inner ">
+                                                <div class="wpb_wrapper">
+                                                    <div class="qodef-carousel-holder with_navigation clearfix">
+                                                        <div class="qodef-carousel" data-items="6" data-navigation="yes">
+                                                            <div class="qodef-carousel-item-holder">
+						<a href="http://www.bushcenter.org/explore-our-work/index.html" class="qodef-carousel-first-image-holder  qodef-image-zoom">
+				<img src="wp-content/uploads/2015/11/Home-2-Carousel-1.png" alt="Home 2 C1">
+			</a>
+                                                            </div>
+                                                            <div class="qodef-carousel-item-holder">
+						<a href="#" class="qodef-carousel-first-image-holder  qodef-image-zoom">
+				<img src="wp-content/uploads/2015/11/Home-2-Carousel-2.png" alt="Home 2 C2">
+			</a>
+                                                            </div>
+                                                            <div class="qodef-carousel-item-holder">
+						<a href="http://www.toyota.com/" class="qodef-carousel-first-image-holder  qodef-image-zoom">
+				<img src="wp-content/uploads/2015/11/Home-2-Carousel-3.png" alt="Home 2 C3">
+			</a>
+                                                            </div>
+                                                            <div class="qodef-carousel-item-holder">
+						<a href="http://www.fastport.com/" class="qodef-carousel-first-image-holder  qodef-image-zoom">
+				<img src="wp-content/uploads/2015/11/Home-2-Carousel-4.png" alt="Home 2 C4">
+			</a>
+                                                            </div>
+                                                            <div class="qodef-carousel-item-holder">
+						<span class="qodef-carousel-first-image-holder  qodef-image-zoom">
+				<img src="wp-content/uploads/2015/11/Home-2-Carousel-1.png" alt="Home 2 C7">
+			</span>
+                                                            </div>
+                                                            <div class="qodef-carousel-item-holder">
+						<span class="qodef-carousel-first-image-holder  qodef-image-zoom">
+				<img src="wp-content/uploads/2015/11/Home-2-Carousel-2.png" alt="Home 2 C8">
+			</span>
+                                                            </div>
+                                                            <div class="qodef-carousel-item-holder">
+						<span class="qodef-carousel-first-image-holder  qodef-image-zoom">
+				<img src="wp-content/uploads/2015/11/Home-2-Carousel-3.png" alt="Home 2 C9">
+			</span>
+                                                            </div>
+                                                            <div class="qodef-carousel-item-holder">
+						<span class="qodef-carousel-first-image-holder  qodef-image-zoom">
+				<img src="wp-content/uploads/2015/11/Home-2-Carousel-4.png" alt="Home 2 C10">
+			</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-qodef-anchor="contact"
+                             class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1446821786553 qodef-content-aligment-left qodef-grid-section contact"
+                             style="background: #f5f5f5 !important;">
+                            <div class="clearfix qodef-section-inner">
+                                <div class="qodef-section-inner-margin clearfix">
+                                    <div class="wpb_wrapper">
+                                        <h2 class="text-align-center">Contact Us</h2>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div role="form" class="wpcf7" id="wpcf7-f1665-p5-o1" lang="en-US"
+                                                     dir="ltr">
+                                                    <div class="screen-reader-response"></div>
+                                                    <form action="http://startit.select-themes.com/startit1/#wpcf7-f1665-p5-o1"
+                                                          method="post" class="wpcf7-form" novalidate="novalidate">
+                                                        <div style="display: none;">
+                                                            <input type="hidden" name="_wpcf7" value="1665"/>
+                                                            <input type="hidden" name="_wpcf7_version" value="4.3.1"/>
+                                                            <input type="hidden" name="_wpcf7_locale" value="en_US"/>
+                                                            <input type="hidden" name="_wpcf7_unit_tag"
+                                                                   value="wpcf7-f1665-p5-o1"/>
+                                                            <input type="hidden" name="_wpnonce" value="a81e46a42d"/>
+                                                        </div>
+                                                        <div class="qodef-two-columns-50-50">
+                                                            <div class="qodef-two-columns-50-50-inner">
+                                                                <div class="qodef-column">
+                                                                    <div class="qodef-column-inner">
+                                                                        <span class="qodef-input-title">Name</span><br/>
+                                                                        <span class="wpcf7-form-control-wrap your-name"><input
+                                                                                type="text" name="your-name" value=""
+                                                                                size="40"
+                                                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                aria-required="true"
+                                                                                aria-invalid="false"/></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="qodef-column">
+                                                                    <div class="qodef-column-inner">
+                                                                        <span class="qodef-input-title">Email</span><br/>
+                                                                        <span class="wpcf7-form-control-wrap your-email"><input
+                                                                                type="email" name="your-email" value=""
+                                                                                size="40"
+                                                                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                                                                aria-required="true"
+                                                                                aria-invalid="false"/></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <span class="qodef-input-title">Subject</span><br/>
+                                                            <span class="wpcf7-form-control-wrap your-subject"><input
+                                                                    type="text" name="your-subject" value="" size="40"
+                                                                    class="wpcf7-form-control wpcf7-text"
+                                                                    aria-invalid="false"/></span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="qodef-input-title">Message</span><br/>
+                                                            <span class="wpcf7-form-control-wrap your-message"><textarea
+                                                                    name="your-message" cols="40" rows="10"
+                                                                    class="wpcf7-form-control wpcf7-textarea"
+                                                                    aria-invalid="false"></textarea></span>
+                                                        </div>
+                                                        <div>
+                                                            <input type="submit" value="Send message"
+                                                                   class="wpcf7-form-control wpcf7-submit"/>
+                                                        </div>
+                                                        <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                                    </form>
+                                                </div>
+                                                <div class="vc_empty_space" style="height: 40px"><span
+                                                        class="vc_empty_space_inner"></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid qodef-section qodef-content-aligment-left"
+                                                     style="">
+                                                    <div class="qodef-full-section-inner">
+                                                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                            <div class="vc_column-inner ">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <h6>US Office</h6>
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <p>Devonshire Ave 94043 Mountain View, CA</p>
+
+                                                                            <p>Email: <a href="#">contact@sphinx.sg</a></p>
+
+                                                                            <p>Phone: <a href="#">+650-336-8357</a></p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vc_empty_space" style="height: 40px">
+                                                                        <span class="vc_empty_space_inner"></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                            <div class="vc_column-inner ">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <h6>Vietnam Office</h6>
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <p>06th Floor, Dai Phat Building, Duy Tan Street, Cau Giay District, Ha Noi</p>
+
+                                                                            <p>Email: <a href="#">contact@sphinx.sg</a></p>
+
+                                                                            <p>Phone: <a href="#">+650-336-8357</a></p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- close div.content_inner -->
+        </div>
+        <!-- close div.content -->
+
+        <footer>
+            <div class="qodef-footer-inner clearfix">
+                <div class="qodef-footer-bottom-holder">
+                    <div class="qodef-footer-bottom-holder-inner">
+                        <div class="qodef-column-inner">
+                            <div id="text-7" class="widget qodef-footer-text widget_text">
+                                <div class="textwidget">© Sphinx 2016. All Right Reserved.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+    <!-- close div.qodef-wrapper-inner  -->
+</div>
+<!-- close div.qodef-wrapper -->
+<script type='text/javascript'
+        src='wp-content/plugins/contact-form-7/includes/js/jquery.form.mind03d.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var _wpcf7 = {
+        "loaderUrl": "http:\/\/startit.select-themes.com\/startit1\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif",
+        "recaptchaEmpty": "Please verify that you are not a robot.",
+        "sending": "Sending ..."
+    };
+    /* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts5b31.js?ver=4.3.1'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/widget.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/tabs.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/accordion.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var mejsL10n = {
+        "language": "en-US",
+        "strings": {
+            "Close": "Close",
+            "Fullscreen": "Fullscreen",
+            "Download File": "Download File",
+            "Download Video": "Download Video",
+            "Play\/Pause": "Play\/Pause",
+            "Mute Toggle": "Mute Toggle",
+            "None": "None",
+            "Turn off Fullscreen": "Turn off Fullscreen",
+            "Go Fullscreen": "Go Fullscreen",
+            "Unmute": "Unmute",
+            "Mute": "Mute",
+            "Captions\/Subtitles": "Captions\/Subtitles"
+        }
+    };
+    var _wpmejsSettings = {"pluginPath": "\/startit1\/wp-includes\/js\/mediaelement\/"};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='wp-includes/js/mediaelement/mediaelement-and-player.mineb0c.js?ver=2.18.1'></script>
+<script type='text/javascript' src='wp-includes/js/mediaelement/wp-mediaelementc1f9.js?ver=4.4.2'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/mouse.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/slider.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-content/themes/startit/assets/js/third-party.minc1f9.js?ver=4.4.2'></script>
+<script type='text/javascript'
+        src='wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min20fd.js?ver=4.9.2'></script>
+<script type='text/javascript' src='wp-content/themes/startit/assets/js/smoothPageScrollc1f9.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?ver=4.4.2'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var qodefGlobalVars = {
+        "vars": {
+            "qodefAddForAdminBar": 0,
+            "qodefElementAppearAmount": -150,
+            "qodefFinishedMessage": "No more posts",
+            "qodefMessage": "Loading new posts...",
+            "qodefTopBarHeight": 0,
+            "qodefStickyHeaderHeight": 0,
+            "qodefStickyHeaderTransparencyHeight": 60,
+            "qodefLogoAreaHeight": 0,
+            "qodefMenuAreaHeight": 100,
+            "qodefStickyHeight": 60,
+            "qodefMobileHeaderHeight": 100
+        }
+    };
+    var qodefPerPageVars = {"vars": {"qodefStickyScrollAmount": 0, "qodefHeaderTransparencyHeight": 0}};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/themes/startit/assets/js/modules.minc1f9.js?ver=4.4.2'></script>
+<script type='text/javascript' src='wp-content/themes/startit/assets/js/blog.minc1f9.js?ver=4.4.2'></script>
+<script type='text/javascript' src='wp-includes/js/comment-reply.minc1f9.js?ver=4.4.2'></script>
+<script type='text/javascript'
+        src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min20fd.js?ver=4.9.2'></script>
+<script type='text/javascript' src='toolbar/toolbarc1f9.js?ver=4.4.2'></script>
+<script type='text/javascript' src='wp-content/themes/startit/assets/js/like.min5152.js?ver=1.0'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.minc1f9.js?ver=4.4.2'></script>
+</body>
+
+<!-- Mirrored from startit.select-themes.com/startit1/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Mar 2016 17:32:51 GMT -->
+</html>
+
+
+
+
